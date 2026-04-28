@@ -3,18 +3,28 @@ def calculator():
     num2 = float(input("Enter second number: "))
     operator = input("Enter an operator you'd like to use (+, -, *, /): ")
 
+    # implementing conditionals as per operators
     if operator == "+":
-        return num1 + num2
+        # additions
+        result = num1 + num2
     elif operator == "-":
-        return num1 - num2
+        # subtraction
+        result = num1 - num2
     elif operator == "*":
-        return num1 * num2
+        # multiplication
+        result = num1 * num2
     elif operator == "/":
+        # division
         if num2 == 0:
+            # handling zero division
             return "Division by 0 is invalid! Please enter number greater than 0."
-        else:
-            return num1 / num2
     else:
         return "Invalid operator provided! Please enter +, -, *, / "
+    
+    # refining the result to print out integer if result is an integer
+    if result.is_integer():
+        return int(result)
+    else:
+        return result
     
 print(calculator())
