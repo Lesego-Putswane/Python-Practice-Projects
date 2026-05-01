@@ -23,7 +23,7 @@ def calculator(num1, num2, operator):
         # division
         if num2 == 0:
             # handling zero division
-            return "Division by 0 is invalid! Please enter number greater than 0."
+            return "Division by 0 is invalid!"
         else:
             return num1 / num2
     else:
@@ -35,7 +35,7 @@ def output_format(num1, num2, operator, result):
         if result.is_integer():
             return f"{num1} {operator} {num2} = {int(result)}"
         else:
-            return result
+            return f"{num1} {operator} {num2} = {result}"
     else:
         return result
 
