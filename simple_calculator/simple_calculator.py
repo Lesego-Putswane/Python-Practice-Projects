@@ -47,15 +47,14 @@ def recalculate():
         output = output_format(num1, num2, operator, result)
         print(output)
 
-        while True:
-            recalculated = input("\nPerform another calculation? yes(y) / no(n): ").lower()
-
-            if recalculated in ["yes","y"]:
-                break
-            elif recalculated in ["no","n"]:
-                print("See you next time!")
-                exit()
-            else:
-                print("Invalid option please type 'yes/y' or 'no/n'!")
+        again = input("\nPerform another calculation? yes(y) / no(n): ").lower()
+        
+        if again in ["yes","y"]:
+            continue
+        elif again in ["no","n"]:
+            print("See you next time!")
+            break
+        else:
+            print("Invalid input!")
 
 recalculate()
