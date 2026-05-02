@@ -1,8 +1,8 @@
-print("_____Welcome to Segos simple calculator_____\n")
+print("_____Welcome to Segos simple calculator_____")
 
 # getting user inputs
 def get_numbers():
-    num1 = float(input("Enter first number: "))
+    num1 = float(input("\nEnter first number: "))
     num2 = float(input("Enter second number: "))
     operator = input("Enter an operator you'd like to use (+, -, *, /): ")
 
