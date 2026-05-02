@@ -37,6 +37,8 @@ This project helped me practice:
 - Loops (`while`)
 - Code refactoring
 - Separation of concerns
+- Error handling (try/except)
+- Input validation
 
 ## How to Run
 
