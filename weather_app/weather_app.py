@@ -1,11 +1,14 @@
 print("Welcome to the weather app")
 
 def city():
-    user_city = input("Enter city you'd like to get weather for: ")
-    return user_city
+    city_name = input("Enter name of the city: ").strip()
+    return city_name
 
 def get_weather():
     pass
 
 def display_weather():
+    pass
+
+def main():
     pass
