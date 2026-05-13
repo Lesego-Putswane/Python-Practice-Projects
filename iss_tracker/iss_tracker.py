@@ -6,3 +6,6 @@ def display_iss_data():
 
 def main():
     pass
+
+if __name__ == "__main__":
+    main()
