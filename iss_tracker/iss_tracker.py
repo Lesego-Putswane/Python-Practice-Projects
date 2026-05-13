@@ -1,7 +1,7 @@
 def iss_data():
     pass
 
-def display_iss_data():
+def display_iss_data(iss):
     pass
 
 def main():
