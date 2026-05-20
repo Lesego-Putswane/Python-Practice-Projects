@@ -6,7 +6,6 @@ def city_name():
     return city
 
 def get_weather(city_name):
-    api_key = "7cab71d942d5ad423838423135d9bab3"
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     # the data that should be returned
     request_url = f"{base_url}?q={city_name}&appid={api_key}&units=metric"
