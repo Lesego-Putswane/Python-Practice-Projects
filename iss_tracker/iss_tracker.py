@@ -15,10 +15,10 @@ def display_iss_data(data):
     time_stamp = data["timestamp"]
 
     print("*" * 30)
-    print(iss_message)
-    print(position_lat)
-    print(position_long)
-    print(time_stamp)
+    print(f"Message: {iss_message}")
+    print(f"Latitude Position: {position_lat}")
+    print(f"Longitude Position: {position_long}")
+    print(f"Timestamp: {time_stamp}")
     print("*" * 30)
     
 
